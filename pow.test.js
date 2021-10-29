@@ -27,4 +27,8 @@ describe('pow', () => {
         expect(pow(base, exponent)).toEqual(NaN);
     });
 
+    it('takes a base and exponent and raises the base to the exponent power. making sure it is obvious that I understand I can write it like this', async() => {
+        expect(pow(52, 2)).toEqual(2704);
+    });
+
 });
