@@ -27,5 +27,4 @@ describe('pow', () => {
         expect(pow(base, exponent)).toEqual(NaN);
     });
 
-
 });
